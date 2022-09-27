@@ -92,7 +92,7 @@ for line in lines:
 print("Total requests made:")
 print(file_len(LOCAL_FILE))
 totalResponses = file_len(LOCAL_FILE)
-print("Average requests per day: ", round(totalResponses/365,2))
+print("Average requests per day:", round(totalResponses/365,2))
 for day in days_result:
     print(f"On {day[0]} there were {day[1]} requests")
 print("Average requests per week:",round(totalResponses/52,2))
